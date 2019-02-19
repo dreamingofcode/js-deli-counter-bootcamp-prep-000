@@ -1,8 +1,9 @@
+var tally=0;
 function takeANumber(line){
- tally++
- line.push()
+ tally++;
+ line.push(tally)
  
-  return (`Welcome, You are number ${line.length} in line.`)
+  return (`Welcome, You are number ${tally} in line.`)
  
 }
 
@@ -22,8 +23,8 @@ var currentLine = function (katzDeliLine) {
   return "The line is currently empty.";
 }
    var customerAndNumber = [];
-   for (var i=0; i<katzDeliLine.length; i++) {
-   customerAndNumber.push(i+1 + ". " + katzDeliLine[i])
+   {
+   customerAndNumber.push( katzDeliLine[i])
 }
   return "The line is currently: " + customerAndNumber.join(", ");
 }
