@@ -25,4 +25,4 @@ var currentLine = function (katzDeliLine) {
 }
   return "The line is currently: " + customerAndNumber.join(", ");
 }
->>>>>>> 62b6658e581de4b8fee9756c119ac30293c9bc6c
+
