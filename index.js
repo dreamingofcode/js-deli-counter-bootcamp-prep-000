@@ -1,5 +1,7 @@
-function takeANumber(line,firstName){
+function takeANumber(line){
+ tally++
  line.push()
+ 
   return (`Welcome, You are number ${line.length} in line.`)
  
 }
