@@ -21,11 +21,8 @@ var line=katzDeliLine.shift();
 var currentLine = function (katzDeliLine) {
   if (katzDeliLine.length===0) {
   return "The line is currently empty.";
+
 }
-   var customerAndNumber = [];
-   {
-   customerAndNumber.push( katzDeliLine[i])
-}
-  return "The line is currently: " + customerAndNumber.join(", ");
+  return "The line is currently: " + KatzDeliLine.join(", ");
 }
 
